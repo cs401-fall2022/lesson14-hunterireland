@@ -7,11 +7,10 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
 </head>
 
 <body>
-  <h1>Typescript for Javascript Programmers</h1>
+  <h1 id="title" onclick="turnBlue()">Typescript for Javascript Programmers</h1>
   <p>
     Maybe you need some more structure in your life. JavaScript reminds you of the kid you were in high school: 
     wild and free, nobody could control you, or tell you what to do. But you're grown up now! You've learned
@@ -95,12 +94,12 @@
       TypeScript for Java/C# programmers</a>
     </li>
   </ul>
-  
-  <!-- <div id="qunit"></div>
-  <div id="qunit-fixture"></div>
-  <script src="https://code.jquery.com/qunit/qunit-2.19.1.js"></script>
-  <script src="js/test.js"></script> -->
  
+  <script type="module">
+    import {turnBlue} from '/build/app.js'
+    window.turnBlue = turnBlue;
+  </script>
+
 </body>
 
 </html>
