@@ -13,7 +13,7 @@ function hello() : String {
     if (document != null) {
         let c = document.getElementById("title").style.color;
         if (c === 'blue') {
-            document.getElementById("title").style.color = "black";
+            document.getElementById("title").style.color = "red";
         } else{
             document.getElementById("title").style.color = "blue";
         }

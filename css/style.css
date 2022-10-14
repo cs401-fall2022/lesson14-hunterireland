@@ -1,0 +1,46 @@
+:root {
+    --header-color: red;
+    font-size: 13pt;
+}
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-variant: small-caps;
+    font-size: 25pt;
+    color: var(--header-color);
+    text-shadow: 0 0 10px red;
+}
+.intro {
+    margin: 0px 15px 0px;
+    border: 3px ridge red;
+    box-shadow: 0 0 10px red, 0 0 10px purple;
+}
+h2 {
+    color: var(--header-color);
+    font-variant: small-caps;
+    font-size: 20pt;
+}
+.arnold {
+    border: 2px solid red;
+    box-shadow: 0 0 10px red, 0 0 10px purple;
+}
+h3 {
+    color: var(--header-color);
+}
+ul {
+    display: inline-block;
+    margin-top: 0px;
+    text-align: left;
+    list-style-type: square;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
