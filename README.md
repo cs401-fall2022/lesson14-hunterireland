@@ -48,6 +48,4 @@ Ran all test suites.
 
 ## HTML
 
-There is an example index.html that shows you how to import the the compiled
-file as an ES6 module and attached it to the onclick event. After you have built
-the project. Open up the index.html using live preview to see the title turn blue!
+The content of index.html is a cursory overview of TypeScript and is meant as a quick five minute read to give developers a feel for the language. To have some extra fun, click on the title of the page and watch it start to flash!
