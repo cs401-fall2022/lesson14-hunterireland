@@ -1,23 +1,26 @@
 :root {
-    --header-color: red;
-    font-size: 13pt;
+    --title-color: red;
+    --header-color: gold;
+    --glow: 0 0 10px red, 0 0 10px purple;
 }
 body {
     text-align: center;
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
 }
 h1 {
     font-variant: small-caps;
     font-size: 25pt;
-    color: var(--header-color);
+    color: var(--title-color);
     text-shadow: 0 0 10px red;
 }
 .intro {
     margin: 0px 15px 0px;
     border: 3px ridge red;
-    box-shadow: 0 0 10px red, 0 0 10px purple;
+    box-shadow: var(--glow);
+    padding: 5px;
 }
 h2 {
     color: var(--header-color);
@@ -26,7 +29,7 @@ h2 {
 }
 .arnold {
     border: 2px solid red;
-    box-shadow: 0 0 10px red, 0 0 10px purple;
+    box-shadow: var(--glow);
 }
 h3 {
     color: var(--header-color);
@@ -43,4 +46,22 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.snippet {
+    width: 500px;
+    border: 2px solid red;
+    box-shadow: var(--glow);
+}
+.code {
+    background-color: dimgrey;
+}
+.warning {
+    width: 750px;
+    border: 2px solid red;
+    box-shadow: var(--glow);
+}
+#firstSnippet {
+    width: 375px;
+    border: 2px solid red;
+    box-shadow: var(--glow);
 }
