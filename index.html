@@ -6,7 +6,7 @@
   <title>Typescript in 5 Minutes</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -35,12 +35,12 @@
   <p>
     If you want something done, do it yourself. Right?
   </p>
-  <img class="arnold" src="/img/wrong.gif" alt="Arnold saying Wrong">
+  <img class="arnold" src="img/wrong.gif" alt="Arnold saying Wrong">
   <p>
     TypeScript knows the JavaScript language and will generate types for you in many cases. For example, in creating
     a variable and assigning it to a particular value, TypeScript will use the value as its type.
   </p>
-  <img id="firstSnippet" src="/img/hello_world.png" alt="Hello world snippet">
+  <img id="firstSnippet" src="img/hello_world.png" alt="Hello world snippet">
   <p>
     By understanding how JavaScript works, TypeScript can build a type-system that accepts JavaScript code but has types. 
     This offers a type-system without needing to add extra characters to make types explicit in your code. That's how 
@@ -57,30 +57,30 @@
     For example, to create an object with an inferred type which includes <span class="code">name: string</span> and 
     <span class="code">instrument: string</span>, you can write:
   </p>
-  <img class="snippet" src="/img/shredder.png" alt="Typescript code snippet">
+  <img class="snippet" src="img/shredder.png" alt="Typescript code snippet">
   <p>
     You can explicitly describe this object's shape using an <span class="code">interface</span> declaration:
   </p>
-  <img class="snippet" src="/img/interface.png" alt="Interface code snippet">
+  <img class="snippet" src="img/interface.png" alt="Interface code snippet">
   <p>
     You can then declare a JavaScript object that conforms to the shape of the metal new <span class="code">interface</span>
     by using syntax like <span class="code">: Typename</span> after a variable declaration.
   </p>
-  <img class="snippet" src="/img/singer.png" alt="Typescript code snippet">
+  <img class="snippet" src="img/singer.png" alt="Typescript code snippet">
   <p>
     So what if they don't listen to you, huh? Well, it's my way or the highway buddy. 
   </p>
-  <img class="warning" src="/img/singer_error.png" alt="Code snippet with error">
+  <img class="warning" src="img/singer_error.png" alt="Code snippet with error">
   <p>
     Ok, even though we're metal, we still follow trends. Since JavaScript supports classes and object-oriented programming,
     so does TypeScript. You can use an interface declaration with classes:
   </p>
-  <img class="snippet" src="/img/class.png" alt="Class code snippet">
+  <img class="snippet" src="img/class.png" alt="Class code snippet">
   <p>
     You can use interfaces to demand parameters and return values fit the types that YOU want! You don't always get
     what you want, do you? Well, this time, you don't have to compromise. 
   </p>
-  <img class="snippet" src="/img/functions.png" alt="Singer code snippet">
+  <img class="snippet" src="img/functions.png" alt="Singer code snippet">
   <p>
     There's a couple primitive types available in JavaScript, like boolean, null, number, string, and undefined. TypeScript,
     the metal heads they are, add some wicked types, like <span class="code">any</span> (whatever you want bro) and 
@@ -99,24 +99,24 @@
     With a union, you can declare that a type could be one of many types. This can be super useful when describing the set of
     <span class="code">string</span> or <span class="code">number</span> literals that a value is allowed to be. No surprises here.
   </p>
-  <img class="snippet" src="/img/unions.png" alt="Unions demonstration">
+  <img class="snippet" src="img/unions.png" alt="Unions demonstration">
   <p>
     This is a metal way to handle different types. For example, you may have a function that takes an <span class="code">array</span> 
     or a <span class="code">string</span>.
   </p>
-  <img class="snippet" src="/img/function_union.png" alt="Unions in a function">
+  <img class="snippet" src="img/function_union.png" alt="Unions in a function">
 
   <h3>You're so Basic (Generics)</h3>
   <p>
     Generics provide variables to types. A common example is an array. An array without generics could contain anything. 
     An array with generics can describe the values that the array contains.
   </p>
-  <img class="snippet" src="/img/generics.png" alt="Generics snippet">
+  <img class="snippet" src="img/generics.png" alt="Generics snippet">
 
   <p>
     Or, since you're picky, you can declare your own interfaces that use generics. Now they'll do what you tell them!
   </p>
-  <img class="snippet" src="/img/interface_generic.png" alt="Interface with a generic">
+  <img class="snippet" src="img/interface_generic.png" alt="Interface with a generic">
 
   <h2>Don't Judge a Book by its Cover (Structural Typing)</h2> 
   <p>
@@ -124,7 +124,7 @@
     “duck typing” or “structural typing”. In a structural type system, if two objects have the same shape, they are considered
     to be of the same type.
   </p>
-  <img class="snippet" src="/img/log_guitar.png" alt="Structural typing snippet">
+  <img class="snippet" src="img/log_guitar.png" alt="Structural typing snippet">
   <p>
     The <span class="code">guitar</span> variable is never declared to be a <span class="code">Guitar</span> type. However, 
     TypeScript compares the shape of <span class="code">guitar</span> to the shape of <span class="code">Guitar</span> in the
@@ -133,7 +133,7 @@
   <p>
     The shape-matching only requires a subset of the object's fields to match. We don't care what your side hustle is, dude.
   </p>
-  <img class="warning" src="/img/log_error.png" alt="Structural typing error">
+  <img class="warning" src="img/log_error.png" alt="Structural typing error">
 
   <h2>WHAT DO I DO NOW?</h2>
   <ul>
